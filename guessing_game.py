@@ -4,8 +4,6 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-player_guess = 0
-
 def quantum_guessing_game():
     q = QuantumRegister(4,'quantumRegister')
     c = ClassicalRegister(4,'classicalRegister')
